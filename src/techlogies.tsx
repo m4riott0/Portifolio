@@ -25,18 +25,26 @@ const TechlogiesData = [
     },
     {
         "id": 7,
-        "name": "PostgreSQL"
-    },
-    {
-        "id": 7,
-        "name": "MySQL"
+        "name": "NestJs"
     },
     {
         "id": 8,
-        "name": "Git"
+        "name": "angular"
     },
     {
         "id": 9,
+        "name": "PostgreSQL"
+    },
+    {
+        "id": 10,
+        "name": "MySQL"
+    },
+    {
+        "id": 11,
+        "name": "Git"
+    },
+    {
+        "id": 12,
         "name": "GitHub"
     }
 ]
