@@ -25,11 +25,11 @@ const TechlogiesData = [
     },
     {
         "id": 7,
-        "name": "NestJs"
+        "name": ".NET"
     },
     {
         "id": 8,
-        "name": "angular"
+        "name": "C#"
     },
     {
         "id": 9,
