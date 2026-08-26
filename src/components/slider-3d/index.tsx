@@ -1,3 +1,4 @@
+import { JSX } from "react";
 import { SliderItem } from "./slider-item";
 
 interface Props<T> {
@@ -23,20 +24,6 @@ export const Slider3D = function <T = unknown>({
             transform: "perspective(400px)",
           }}
         >
-          {/* <div aria-label="item" className="absolute inset-0" style={{
-          transform: "translateZ(550px)"
-          }}>
-          <img src="/avatar.jpeg" className="h-full w-full object-cover" />
-          </div> */}
-          {/* {new Array(10).fill(null).map((_, index) => (
-            <SliderItem index={index} key={index} quantity={10}>
-              <img
-                src="/avatar.jpeg"
-                className="h-full w-full object-cover"
-                alt="Avatar"
-              />
-            </SliderItem>
-          ))} */}
           {items.map((item, index) => (
             <SliderItem index={index} key={index} quantity={items.length}>
               {sliderItem(item)}
